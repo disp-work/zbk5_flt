@@ -7,12 +7,14 @@
 
 		<title>zbk5_flt</title>
 
-		<script id="sap-ui-bootstrap"
-			src="../../resources/sap-ui-core.js"
+		<script 
+			id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/1.52.26/resources/sap-ui-core.js"
 			data-sap-ui-libs="sap.m"
 			data-sap-ui-theme="sap_belize"
 			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"com.hcc.bk5.flt": ""}'>
+			data-sap-ui-resourceroots='{"com.hcc.bk5.flt": "./"}'
+			data-sap-ui-preload="async">
 		</script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,6 +22,7 @@
 		<script>
 			sap.ui.getCore().attachInit(function() {
 				new sap.m.Shell({
+					appWidthLimited: false,					
 					app: new sap.ui.core.ComponentContainer({
 						height : "100%",
 						name : "com.hcc.bk5.flt"

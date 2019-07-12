@@ -20,6 +20,24 @@
         "version": "1.44.12"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "LPT",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "LPT - HKM-Entwicklungssystem"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "LPT",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "LPT - HKM-Entwicklungssystem"
     }
   ],
   "sendWelcomeFileRedirect": true

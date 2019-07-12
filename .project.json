@@ -6,7 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true
+    "buildRequired": false,
+    "lastBuildDateTime": "Fri, 12 Jul 2019 12:28:17 GMT"
   },
   "generation": [
     {
@@ -29,8 +30,8 @@
   },
   "basevalidator": {
     "services": {
-      "xml": "fioriXmlAnalysis",
-      "js": "fioriJsValidator"
+      "xml": "xmlValidator",
+      "js": "jsValidator"
     }
   },
   "codeCheckingTriggers": {
@@ -38,5 +39,9 @@
     "notifyBeforePushLevel": "Error",
     "blockPush": false,
     "blockPushLevel": "Error"
+  },
+  "deploy": {
+    "destination": "LPT",
+    "name": "zbk5_flt"
   }
 }

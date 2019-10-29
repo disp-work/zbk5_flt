@@ -25,7 +25,9 @@
 					appWidthLimited: false,					
 					app: new sap.ui.core.ComponentContainer({
 						height : "100%",
-						name : "com.hcc.bk5.flt"
+						name : "com.hcc.bk5.flt",
+						async : true,
+						manifest : true						
 					})
 				}).placeAt("content");
 			});

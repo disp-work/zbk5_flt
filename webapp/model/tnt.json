@@ -1,0 +1,151 @@
+{
+	"selectedKey": "Liv2",
+	"selectedFixedKey": "1Col",
+
+	"navigation": [{
+		"title": "LiV",
+		"tooltip": "Lehrer im Vorbereitungsdienst",
+		"icon": "sap-icon://employee",
+		"key": "Liv",
+		"items": [{
+			"title": "LiV - Ausbildungsplan",
+			"tooltip": "Lehrer im Vorbereitungsdienst - individueller Ausbildungsplan",
+			"key": "tp01.mc.sp02.nc01.LivLst"
+		},{
+			"title": "LiV - zweite Sicht",
+			"tooltip": "Lehrer im Vorbereitungsdienst - zweite Sicht",
+			"key": "tp01.mc.sp02.nc01.LivAup"
+		}]
+	}, {
+		"title": "Module",
+		"tooltip": "Module",
+		"icon": "sap-icon://education",
+		"key": "Mdt",
+		"items": [{
+			"title": "Module - Ausbildungsplan",
+			"tooltip": "Module - Ausbildungsplan",
+			"key": "tp01.mc.sp02.nc02.MdtLst"
+		},{
+			"title": "Module - zweite Sicht",
+			"tooltip": "Module- zweite Sicht",
+			"key": "tp01.mc.sp02.nc02.MdtAup"
+		}]
+	}],
+	"fixedNavigation": [{
+		"title": "Vollbild",
+		"tooltip": "Modus Vollbild auswählen",
+		"icon": "sap-icon://border",
+		"key": "1Col"
+	}, {
+		"title": "Split Screen",
+		"tooltip": "Modus Split Screen auswählen",
+		"icon": "sap-icon://screen-split-two",
+		"key": "2Col"
+	}],
+
+	"seminarSet": [{
+		"key": "BDA",
+		"name": "Berufliche Schulen Darmstadt"
+	}, {
+		"key": "GWI",
+		"name": "Gymnasien Wiesbaden"
+	}, {
+		"key": "XDA",
+		"name": "GHRF Darmstadt"
+	}, {
+		"key": "XESW",
+		"name": "GHRF Eschwege"
+	}, {
+		"key": "XFF",
+		"name": "GHRF Frankfurt"
+	}, {
+		"key": "XFB",
+		"name": "GHRF Friedberg"
+	}, {
+		"key": "GDA",
+		"name": "Gymnasien Darmstadt"
+	}],
+
+	"subjectSet": [{
+		"key": "",
+		"name": "Fachübergreifend"
+	}, {
+		"key": "AL",
+		"name": "Arbeitslehre"
+	}, {
+		"key": "AB",
+		"name": "Biologie"
+	}, {
+		"key": "CHE",
+		"name": "Chemie"
+	}, {
+		"key": "DG",
+		"name": "Deutsch (Grundschule)"
+	}, {
+		"key": "DHR",
+		"name": "Deutsch"
+	}, {
+		"key": "E",
+		"name": "Englisch"
+	}, {
+		"key": "EK",
+		"name": "Erdkunde"
+	}, {
+		"key": "MA",
+		"name": "Mathematik"
+	}],
+
+	"periodSet": [{
+		"key": "201701",
+		"name": "01.2017"
+	}, {
+		"key": "201702",
+		"name": "02.2017"
+	}, {
+		"key": "201801",
+		"name": "01.2018"
+	}, {
+		"key": "201802",
+		"name": "02.2018"
+	}, {
+		"key": "201901",
+		"name": "01.2019"
+	}, {
+		"key": "201902",
+		"name": "02.2019"
+	}],
+
+	"semesterSet": [{
+		"key": "EF",
+		"name": "Einführungssemester"
+	}, {
+		"key": "HS1",
+		"name": "1. Hauptsemester"
+	}, {
+		"key": "HS2",
+		"name": "2. Hauptsemester"
+	}, {
+		"key": "PS",
+		"name": "Prüfungssemester"
+	}],
+
+	"numberPeriodSet": [{
+		"key": "1",
+		"name": "1"
+	}, {
+		"key": "2",
+		"name": "2"
+	}, {
+		"key": "3",
+		"name": "3"
+	}, {
+		"key": "4",
+		"name": "4"
+	}, {
+		"key": "5",
+		"name": "5"
+	}, {
+		"key": "6",
+		"name": "6"
+	}]
+}

@@ -10,23 +10,23 @@
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
-            "id": "servicecatalog.connectivityComponent",
-            "version": "0.0.0"
-        },
-        "dataSources": {
-            "mainService": {
-                "uri": "/sap/opu/odata/sap/ZBK5_FLT_SRV/",
-                "type": "OData",
-                "settings": {
-                    "odataVersion": "2.0",
-                    "localUri": "localService/metadata.xml"
-                }
-            },
-            "valueHelp": {
-                "uri": "",
-                "type": "JSON"
-            }
-        }
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"mainService": {
+				"uri": "/sap/opu/odata/sap/ZBK5_FLT_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"valueHelp": {
+				"uri": "",
+				"type": "JSON"
+			}
+		}
 	},
 	"sap.ui": {
 		"technology": "UI5",
@@ -70,23 +70,29 @@
 			"compact": true,
 			"cozy": true
 		},
-        "models": {
-            "i18n": {
-                "type": "sap.ui.model.resource.ResourceModel",
-                "settings": {
-                    "bundleName": "com.hcc.er5.jsh.i18n.i18n"
-                }
-            },
-            "": {
-                "dataSource": "mainService",
-                "preload": true
-            },
-            "valueHelp": {
-                "type": "sap.ui.model.json.JSONModel",
-                "dataSource": "valueHelp",
-                "preload": true
-            }
-        },
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.hcc.bk5.flt.i18n.i18n"
+				}
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true
+			},
+			"valueHelp": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "valueHelp",
+				"preload": true
+			},
+			"tnt": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"preload": true,
+				"uri": "model/tnt.json"
+			}
+		},
 		"resources": {
 			"css": [
 				{

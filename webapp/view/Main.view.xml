@@ -5,29 +5,29 @@
 		<fb:filterItems>
 			<fb:FilterItem name="A" label="Studienseminar">
 				<fb:control>
-					<Select id="slSeminar" forceSelection="true" change="onSelectChange" selectedKey="XFF" items="{path: 'lcl>/seminarSet'}">
-						<core:Item key="{lcl>key}" text="{lcl>name}"/>
+					<Select id="slSeminar" forceSelection="true" change="onSelectChange" selectedKey="GWI" items="{path: 'tnt>/seminarSet'}">
+						<core:Item key="{tnt>key}" text="{tnt>name}"/>
 					</Select>
 				</fb:control>
 			</fb:FilterItem>
 			<fb:FilterItem name="C" label="Fach">
 				<fb:control>
-					<MultiComboBox items="{ path: 'lcl>/subjectSet' }">
-						<core:Item key="{lcl>key}" text="{lcl>name}"/>
+					<MultiComboBox items="{ path: 'tnt>/subjectSet' }">
+						<core:Item key="{tnt>key}" text="{tnt>name}"/>
 					</MultiComboBox>
 				</fb:control>
 			</fb:FilterItem>
 			<fb:FilterItem name="D" label="Periode">
 				<fb:control>
-					<Select id="slPeriod" change="onSelectChange" forceSelection="true" selectedKey="201902" width="250px" items="{ path: 'lcl>/periodSet' }">
-						<core:Item key="{lcl>key}" text="{lcl>name}"/>
+					<Select id="slPeriod" change="onSelectChange" forceSelection="true" selectedKey="201902" width="250px" items="{ path: 'tnt>/periodSet' }">
+						<core:Item key="{tnt>key}" text="{tnt>name}"/>
 					</Select>
 				</fb:control>
 			</fb:FilterItem>
-			<fb:FilterItem name="E" label="Semester">
+			<fb:FilterItem name="E" label="Ausbildungsphase">
 				<fb:control>
-					<Select id="slSemester" change="onSelectChange" forceSelection="false" items="{ path: 'lcl>/semesterSet' }">
-						<core:Item key="{lcl>key}" text="{lcl>name}"/>
+					<Select id="slSemester" change="onSelectChange" forceSelection="false" items="{ path: 'tnt>/semesterSet' }">
+						<core:Item key="{tnt>key}" text="{tnt>name}"/>
 					</Select>
 				</fb:control>
 			</fb:FilterItem>
